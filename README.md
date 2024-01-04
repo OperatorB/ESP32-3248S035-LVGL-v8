@@ -6,8 +6,8 @@
 - Create an empty ESP-IDF project with name "LVGL_lovyanGFX". (e.g Visual Studio Code)
 - Copy the content of this repo to your project.
 - Create a "components" directory.
-- Clone LVGL V8.3 release to the components directory. git clone --single-branch --branch release/v8.3 https://github.com/lvgl/lvgl.git
-- Clone LovyanGFX v1.x to the components directory. git clone https://github.com/lovyan03/LovyanGFX.git
+- Clone LVGL V8.3 release to the components directory. `git clone --single-branch --branch release/v8.3 https://github.com/lvgl/lvgl.git`
+- Clone LovyanGFX v1.x to the components directory. `git clone https://github.com/lovyan03/LovyanGFX.git`
 
 
 ## Quick test

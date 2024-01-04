@@ -3,7 +3,7 @@
 
 # Usage
 
-- Create an empty ESP-IDF project with name "LVGL_lovyanGFX". (e.g Visual Studio Code)
+- Create an empty ESP-IDF project with name "LVGL_lovyanGFX".
 - Copy the content of this repo to your project.
 - Create a "components" directory.
 - Clone LVGL V8.3 release to the components directory. `git clone --single-branch --branch release/v8.3 https://github.com/lvgl/lvgl.git`
@@ -13,10 +13,6 @@
 ## Quick test
 To check that your hardware is working use esptool to flash the provided LVGL_lovyanGFX.bin file to your board.
 
-
-## Example folder contents
-
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
 
 ## About Build
 
@@ -30,7 +26,12 @@ Below is short explanation of remaining files in the project folder.
 ├── CMakeLists.txt
 ├── main
 │   ├── CMakeLists.txt
-│   └── main.c
+│   ├── ESP32-3248S035.h
+│   └── main.cpp
+├──components
+│   ├── lvgl (dir)
+│   └── LovyanGFX (dir)
+├── sdkconfig
 └── README.md                  This is the file you are currently reading
 ```
 Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
